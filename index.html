@@ -10,6 +10,7 @@
 body {
   background-color: #474e5d;
   font-family: Helvetica, sans-serif;
+  background-image: url("img/bat.gif");
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -36,7 +37,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #2f9a9a;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -49,7 +50,9 @@ body {
   position: relative;
   background-color: inherit;
   width: 50%;
+  transition: all .2s ease-in-out;
 }
+.container:hover { transform: scale(1.1); }
 
 /* The circles on the timeline */
 .container::after {
@@ -59,7 +62,7 @@ body {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #46dad3bf;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -116,6 +119,7 @@ body {
   border-radius: 6px;
 }
 
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
@@ -147,6 +151,8 @@ body {
   .right {
   left: 0%;
   }
+
+  
 }
 </style>
 </head>
@@ -155,13 +161,128 @@ body {
 <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>Test</h2>
+      <h2>My Leader</h2>
+	  <img class="img-fluid" src="img/divya.png">
+      <p>You are the glue to PwC team, its very hard to find a leader like you. Under your guidance PwC is growing and will keep on shining!!</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Mentor</h2>
 	  <img class="img-fluid" src="img/Saurabh-Chowdhury.jpg">
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <p>I never had a mentor like you, there are infinite things that I've learnt from you. Whenever I needed guidance you were there for me. I was an average developer but you brought the best version of me.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Inspiration</h2>
+	  <img class="img-fluid" src="img/Ankit-Awal-1.jpg">
+      <p>From day one, you are my inspiration, I have learnt so many leaderships skills from you, you are polite as well as fun. It was a great experience working with you.Thank you for being an inspiration.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Big Brother</h2>
+	  <img class="img-fluid" src="img/Manish-Bhayana.jpg">
+      <p>You are like a big brother to me, Paaji. I truly respect and admire your ideals, you showed me what it means to have a family member in the team. I am going to miss all your Burraaahhhhhaaassss!!</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Best Friend</h2>
+	  <img class="img-fluid" src="img/Lipika-Gupta.jpg">
+      <p>Lipika, I never thought I would find such a great friend like you in the team. Be it doing chit-chat or solving a complex problem I enjoyed every second spent with you. Thanks for being supportive. You were the one I could count on for anything. I cannot express in words how much I am going to miss you.</p>
+    </div>
+  </div>
+
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Innocent Friend</h2>
+	  <img class="img-fluid" src="img/Naman-Agarwal.jpg">
+      <p>You taught me how to stand for the ideals you believe in. Never change, you are unique and that's the quality I am taking with me. I am going to miss our lunch fun.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Mentee</h2>
+	  <img class="img-fluid" src="img/Parvati-sharma.jpg">
+      <p>I was mentoring you but you showed me what hard work really means. I was fortunate that I got the opportunity to mentor you. Thanks for believing in me and accepting what I taught you.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Big Sister</h2>
+	  <img class="img-fluid" src="img/Rijul-Katyal-Babbar.jpg">
+      <p>You spread happiness through your smile. You were like my big sister. I never mentioned it to but I was totally influenced by the kindness you have for the people.</p>
+    </div>
+  </div>
+
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Lunch Partner</h2>
+	  <img class="img-fluid" src="img/Rajat-Sharma.jpg">
+      <p>Bro, you are the shining star of the PwC team. I know you will achieve miles in your career. It was a great experience working with you.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Gossip Friend</h2>
+	  <img class="img-fluid" src="img/Gurdeep-Singh.jpg">
+      <p>Kakke, I will always remember our chit-chats and gossips. It was an awesome experience working with a colorful personality like you.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Fitness Friend</h2>
+	  <img class="img-fluid" src="img/Anjali-Kochar.jpg">
+      <p>Oh my god! how can one be so punctual about their health and personality. Your disciplined approach to solve a problem is mind-blowing. Keep up the great work.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My Mentee</h2>
+	  <img class="img-fluid" src="img/Ankit-Kashyap-1.jpg">
+      <p>Brother, I really going to miss you. I feel proud that I mentored you. I know you will rock your work with your capabilities.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My Friend</h2>
+	  <img class="img-fluid" src="img/Sambhav-Aggarwal.jpg">
+      <p>You have always been too polite to everyone you work with. Keep up the great work bro! I really enjoyed every user story that I got to work with you.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>My New Mentee</h2>
+	  <img class="img-fluid" src="img/Deepak-Yadav.jpg">
+      <p>I can see next Vikas in you. I know you will do great things in team.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>My New Mentee</h2>
+	  <img class="img-fluid" src="img/Saurabh-Gupta-ZippSlip.jpg">
+      <p>Bro, do you remember our debugging? In the coming times, the team is going to count on you for so many things. I know you are going to ace all the challenges you are going to solve.</p>
     </div>
   </div>
 
 </div>
+
 
 </body>
 </html>

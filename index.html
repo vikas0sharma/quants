@@ -19,6 +19,18 @@ body {
   margin: 0 auto;
 }
 
+.img-fluid{
+  border-radius:50%;
+  width:35%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.img-fluid:hover {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
@@ -144,6 +156,7 @@ body {
   <div class="container left">
     <div class="content">
       <h2>Test</h2>
+	  <img class="img-fluid" src="img/Saurabh-Chowdhury.jpg">
       <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>

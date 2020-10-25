@@ -1,2 +1,0 @@
-# quants
-Bid Adieu
